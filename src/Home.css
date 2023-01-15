@@ -1,0 +1,40 @@
+.body-content{
+    padding-left:4rem;
+    padding-right:4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .body-content {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  .mobile-hidden{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 768px) {
+    .mobile-hidden {
+      display: none;
+    }
+  }
+  
+  .middlePanel{
+    padding-left:4rem;
+    padding-right:4rem;
+    padding-top: 2rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .middlePanel {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+
+  .my-input-class {
+    padding: 0;
+}

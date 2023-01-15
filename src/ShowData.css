@@ -1,0 +1,33 @@
+.table-heading{
+    font-weight: bold;
+}
+
+.image-text{
+    display:flex;
+    align-items: center;
+    width:"6rem"
+}
+
+.table-content{
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .table-desktop {
+      display: none;
+    }
+
+    .table-mobile{
+        display:block !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .table-desktop {
+      display: block !important;
+    }
+
+    .table-mobile{
+        display:none !important;
+    }
+  }
